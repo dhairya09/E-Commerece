@@ -1,0 +1,51 @@
+<com.example.dhairyapujara.beauty_hub.DashPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+
+    android:background="#f8f9fe" >
+
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/About_Beauty_hub"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="About BeautyHub" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/Brands"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="Brands" />
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/Categories"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="Categories" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/Items"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="Items" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/Description"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="Description Items" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/Gender"
+        style="@style/DashBoardButton"
+        android:drawableTop="@drawable/bh2_splash"
+        android:text="Gender" />
+
+</com.example.dhairyapujara.beauty_hub.DashPanel>

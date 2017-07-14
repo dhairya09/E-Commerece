@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    >
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/etSend"
+
+        />
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="50"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSA"
+            android:text="Start Activity"/>
+            <!--android:background="@drawable/custom"-->
+
+
+
+        <Button
+            android:layout_weight="50"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity for Result"
+            android:id="@+id/bSAR"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/results"
+        android:text="invalid"
+        android:gravity="center"
+        />
+
+</LinearLayout>
